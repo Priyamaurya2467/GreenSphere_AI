@@ -1,0 +1,60 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Root Variables */
+:root {
+	--background: #f6f8f6;
+	--foreground: #123026;
+	--primary: #184a3c;
+	--secondary: #5d6d65;
+	--card: #ffffff;
+	--border: #e5ece7;
+}
+
+/* Base Styles */
+html {
+	scroll-behavior: smooth;
+}
+
+body {
+	background: var(--background);
+	color: var(--foreground);
+	font-family: "Inter", sans-serif;
+	margin: 0;
+	padding: 0;
+	overflow-x: hidden;
+}
+
+/* Scrollbar */
+::-webkit-scrollbar {
+	width: 8px;
+}
+
+::-webkit-scrollbar-track {
+	background: #edf2ee;
+}
+
+::-webkit-scrollbar-thumb {
+	background: #184a3c;
+	border-radius: 999px;
+}
+
+/* Utility Classes */
+.glass {
+	background: rgba(255, 255, 255, 0.65);
+	backdrop-filter: blur(18px);
+	border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.hero-gradient {
+	background: radial-gradient(
+		circle at center,
+		rgba(86, 167, 120, 0.12),
+		transparent 70%
+	);
+}
+
+.green-shadow {
+	box-shadow: 0px 10px 40px rgba(24, 74, 60, 0.15);
+}

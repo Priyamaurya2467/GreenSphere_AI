@@ -1,0 +1,65 @@
+# =========================
+# FRONTEND (React / Vite)
+# =========================
+frontend/node_modules
+frontend/dist
+frontend/dist-ssr
+frontend/build
+frontend/.vite
+
+# Logs
+frontend/logs
+frontend/*.log
+frontend/npm-debug.log*
+frontend/yarn-debug.log*
+frontend/yarn-error.log*
+frontend/pnpm-debug.log*
+
+# Local env files
+frontend/*.local
+
+# =========================
+# BACKEND (Flask / Python)
+# =========================
+backend/venv
+backend/__pycache__
+backend/*.pyc
+backend/*.pyd
+backend/*.dll
+backend/*.log
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Virtual environments
+venv/
+ENV/
+env/
+
+# =========================
+# ENV FILES
+# =========================
+.env
+.env.local
+.env.development
+.env.production
+
+# =========================
+# SYSTEM FILES
+# =========================
+.DS_Store
+Thumbs.db
+
+# =========================
+# EDITORS
+# =========================
+.vscode/
+.idea/
+
+# =========================
+# DEPENDENCY FOLDERS (GLOBAL SAFETY)
+# =========================
+node_modules/
+dist/
+build/
