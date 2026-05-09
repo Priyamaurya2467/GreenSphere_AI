@@ -21,7 +21,9 @@ export default defineConfig({
         rewrite: (path) => path.replace(/^\/openaq/, "")
       }
     }
-  }
+  },
+
+  base: "/",
 
 
 })
